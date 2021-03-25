@@ -1,0 +1,238 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0px 5px 15px 5px;
+}
+
+header {
+    background-color: rgb(29, 29, 29);
+    padding: 2vh;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+nav>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2vh;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+}
+
+
+.pack {
+    background-color: rgb(51, 77, 92);
+    padding: 5vh;
+    display: flex;
+    color: white;
+    font-size: xxx-large;
+    align-items: center;
+    padding-left: 8vh;
+}
+
+.carton {
+    width: 33.3%;
+}
+
+.carton+div {
+    width: 66.6%;
+}
+
+section>div>.carton+div>p {
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+section>div>.carton+div>p:nth-child(2) {
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+
+/* ECLOSION */
+
+.eclosion>div:first-of-type {
+    display: flex;
+    justify-content: center;
+}
+
+.eclosion>div>h1 {
+    background-color: rgb(51, 77, 92);
+    text-align: center;
+    padding: 15px;
+    width: 30%;
+    color: white;
+    font-size: 50px;
+}
+
+.oeuf {
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.oeuf>div+div>p {
+    margin-left: 20vh;
+    font-size: 20px;
+    font: bold;
+}
+
+.logos4 {
+    display: flex;
+    justify-content: space-around;
+    background-color: RGB(234, 227, 214)
+}
+
+.logos4>div>img {
+    width: 85px;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+
+.logos4>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3vh;
+    ;
+}
+
+/* FIN ECLOSION */
+
+/* EVOLUTION */
+
+.evolution>div:first-of-type {
+    display: flex;
+    justify-content: center;
+}
+
+.evolution>div>h1 {
+    background-color: rgb(51, 77, 92);
+    text-align: center;
+    padding: 15px;
+    width: 30%;
+    color: white;
+    font-size: 50px;
+}
+
+.pousse {
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.pousse>div+div>p {
+    margin-left: 20vh;
+    font-size: 20px;
+    font: bold;
+}
+
+.logos5 {
+    display: flex;
+    justify-content: space-around;
+    background-color: RGB(234, 227, 214)
+}
+
+.logos5>div>img {
+    width: 85px;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+
+.logos5>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3vh;
+    position: relative;
+    height: 300px;
+}
+
+.logos5>div:last-of-type {
+    position: absolute;
+    padding-top: 150px;
+}
+
+/* FIN EVOLUTION */
+
+/* ENVOL */
+
+.envol>div:first-of-type {
+    display: flex;
+    justify-content: center;
+}
+
+.envol>div>h1 {
+    background-color: rgb(51, 77, 92);
+    text-align: center;
+    padding: 15px;
+    width: 30%;
+    color: white;
+    font-size: 50px;
+}
+
+.mongo {
+    padding: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.mongo>div+div>p {
+    margin-left: 20vh;
+    font-size: 20px;
+    font: bold;
+}
+
+.logocampagne {
+    display: flex;
+    justify-content: space-around;
+    background-color: RGB(234, 227, 214)
+}
+
+.logocampagne>div>img {
+    width: 85px;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+
+.logocampagne>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3vh;
+    font: bold;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: RGB(57, 58, 59)
+}
+
+.footer>div>img {
+    width: 50px;
+    padding-bottom: 2vh;
+
+}
+
+.footer>div {
+    display: flex;
+    flex-direction: column;
+    font: bold;
+    color: white;
+    padding-bottom: 5vh;
+}
+
+.footer>div>div img {
+    width: 50px;
+}
+
